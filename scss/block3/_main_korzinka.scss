@@ -1,0 +1,202 @@
+.main_korzinka_sup2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #F6F7F8;
+    margin-bottom: 65px;
+}
+
+.main_korzinka_sup_mini {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.main_korzinka_item {
+    padding-bottom: 53px;
+    border-bottom: 2px solid #F6F6F6;
+    margin-bottom: 90px;
+}
+
+.korzinka_sup_card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sup1 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.korzinka_img {
+    width: 137px;
+    height: 94px;
+    object-fit: contain;
+}
+
+.korzinka_img_sup {
+    padding: 10px;
+    background-color: #F6F6F6;
+    border-radius: 7px;
+}
+
+.delete_btn {
+    width: 23px;
+    height: 23px;
+    border: none;
+    background-color: #F6F6F6;
+    border-radius: 50%;
+    color: red;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sup2 {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.sup2_mini {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 13px 18px;
+    background-color: #F6F6F6;
+    border-radius: 7px;
+}
+
+.sup2_btn {
+    border: none;
+    background-color: transparent;
+    color: #33A0FF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+////
+.korzinka_form {
+    position: relative;
+    max-width: 370px;
+}
+
+.korzinka_input {
+    padding: 18px 235px 16px 19px;
+    outline: none;
+    width: 100%;
+    border: 2px solid #F1F3F4;
+    color: #929292;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    overflow: hidden;
+    border-radius: 2px;
+
+    &::placeholder {
+        color: #929292;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.korzinka_form_btn {
+    position: absolute;
+    padding: 18px 21px 16px 21px;
+    border-radius: 2px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    outline: none;
+    background-color: #33A0FF;
+    top: 0;
+    right: 0px;
+}
+
+.main_korzinka_last_mini_sup {
+    max-width: 380px;
+}
+
+.main_korzinka_last_mini_sup_text {
+    color: #262626;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main_korzinka_last_mini_sup1,
+.main_korzinka_last_mini_sup2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+.main_korzinka_last_mini_sup3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 23px;
+    border-bottom: 2px solid #F1F3F4;
+}
+
+.main_korzinka_last_big_sup {
+    padding-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.main_korzinka_last_big_sup_text {
+    color: #22262A;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main_korzinka_last_mini_sup_btn {
+    padding: 16px 140px;
+    width: 100%;
+    border: none;
+    background-color: #33A0FF;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main_korzinka_last_sup {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 155px;
+}
+@media screen and (max-width:800px) {
+    .main_korzinka_last_sup{
+        display: none;
+    }
+    .korzinka_sup_card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sup1{
+        margin-bottom: 30px;
+    }
+    .sup2{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:535px) {
+    .main_korzinka_sup2{
+        display: none;
+    }
+}

@@ -1,0 +1,130 @@
+.main_footer {
+    background-color: #BCDDFE;
+}
+
+.footer_mini_sup {
+    max-width: 300px;
+}
+
+.footer_logo_sup {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 10px;
+}
+
+.footer_title {
+    color: #22262A;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer_text {
+    color: #22262A;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer_mini_sup2 {
+    max-width: 245px;
+}
+
+.footer_mini_sup2_title {
+    color: #22262A;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.footer_mini_sup2_text {
+    color: #22262A;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.footer_mini_sup2_icons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer_mini_sup3{
+    max-width: 160px;
+}
+
+.footer_mini_sup3_title {
+    color: #22262A;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.footer_sup{
+    padding-top: 150px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-bottom: 278px;
+}
+.footer_mini_sup2,.footer_mini_sup3{
+    padding-top: 15px;
+}
+.footer_last_sup{
+    padding-top: 30px;
+    border-top: 1px solid #F6F7F8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 55px;
+}
+.footer_last_sup_pay_block{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer_last_sup_text{
+    color: #C1C8CE;
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+}
+@media screen and (max-width:750px) {
+    .footer_sup{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:440px) {
+    .footer_last_sup{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .footer_last_sup_text{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer_sup{
+        display: flex;
+        justify-content: center;
+    }
+    .footer_mini_sup{
+        text-align: center;
+    }
+    .footer_logo_sup{
+        display: flex;
+        justify-content: center;
+    }
+    .footer_mini_sup2{
+        text-align: center;
+    }
+    .footer_mini_sup2_icons{
+        display: flex;
+        justify-content: center;
+    }
+    .footer_mini_sup3{
+        text-align: center;
+    }
+}

@@ -1,0 +1,35 @@
+.main_hero {
+    background-repeat: no-repeat;
+    background-image: url(../../img/hero_bg.png);
+    background-size: cover;
+}
+
+.container_sup {
+    padding-top: 258px;
+    padding-bottom: 166px;
+    max-width: 573px;
+}
+
+.main_hero__title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+@media screen and (max-width:440px) {
+    .main_hero{
+        background-image: none;
+    }
+    .container_sup{
+        padding: 0;
+        background-repeat: no-repeat;
+        background-image: url(../../img/hero_mobile_img.png);
+        height: 210px;
+        background-size: cover;
+    }
+    .main_hero__title{
+        display: none;
+    }
+}
+
